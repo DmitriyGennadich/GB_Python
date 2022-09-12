@@ -4,7 +4,7 @@
 # - 0,56 -> 11
 
 
-number = input('Введите число:\t')
+number = input('Введите число: ')
 summa = 0
 for i in number:
     if '0' <= i <= '9':
