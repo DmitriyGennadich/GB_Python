@@ -8,4 +8,3 @@
 
 inp = list(map(int, input('Insert text: ').split()))
 print(list(filter(lambda x: 9 < abs(x) < 100, inp)))
-1
