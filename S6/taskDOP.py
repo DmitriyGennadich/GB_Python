@@ -6,5 +6,7 @@
 
 
 
-inp = list(map(int, input('Insert text: ').split()))
-print(list(filter(lambda x: 9 < abs(x) < 100, inp)))
+# inp = list(map(int, input('Insert text: ').split()))
+# print(list(filter(lambda x: 9 < abs(x) < 100, inp)))
+
+print(*filter(lambda x: len(str(abs(int(x)))) == 2, input().split()))
