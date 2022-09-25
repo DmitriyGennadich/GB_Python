@@ -33,6 +33,6 @@ if n != 0:
 else:   
     print(f'n должно быть больше нуля, иначе не многочлен')
 
-f = open('task4.txt', 'w')
+f = open('HW4.txt', 'w')
 f.write(make(n))
 f.close()
